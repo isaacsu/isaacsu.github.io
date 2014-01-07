@@ -13,6 +13,7 @@ Add to ```project.clj```.
 
 ### Common require
 ```clojure
+(require '[clj-time.core   :as ct-core])
 (require '[clj-time.format :as ct-format])
 ```
 
