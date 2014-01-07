@@ -50,6 +50,5 @@ Renders a ```org.joda.time.DateTime``` object as ```"dd/MM/yyyy"```.
 
 (ct-format/unparse my-formatter my-datetime)
 ; => "01/05/2014"
-
 ```
 
