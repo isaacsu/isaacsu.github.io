@@ -41,7 +41,7 @@ Assumes string refers to local machine timezone.
 
 #### DateTime object to string
 
-Renders a ```org.joda.time.DateTime``` object as "dd/MM/yyyy".
+Renders a ```org.joda.time.DateTime``` object as ```"dd/MM/yyyy"```.
 
 ```clojure
 (def my-formatter (ct-format/formatter "dd/MM/yyyy"))
