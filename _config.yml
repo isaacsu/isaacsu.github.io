@@ -1,0 +1,53 @@
+name: Isaac Su
+markdown: redcarpet
+pygments: true
+
+exclude: [_templates]
+post:
+  template: templates/_post.txt
+  extension: md
+
+page:
+  template: templates/_page.txt
+  extension: md
+
+editor: emacs
+
+git:
+  branch: master
+
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/username.github.com/
+
+
+# Theme customization - please change from the defaults!
+theme:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: isaacsu
+    bitbucket: isaacsu
+    #hacker_news: swanson
+    #stackexchange: 348619
+    #stackoverflow: 348619
+    twitter: isaacsu
+    #facebook: zuck
+    #tumblr: animalygifs
+    #linkedin: philipjagielski
+    #gplus: 110552447039675960964
+
+  # "Hi, I'm _______"
+  name: Isaac Su
+  email: me@isaacsu.com
+  tagline: "weak opinions, strongly held"
+
+  # Google Analytics key, leave blank to ignore
+  #google_analytics_key: UA-xxxx-x
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: true

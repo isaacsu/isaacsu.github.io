@@ -1,3 +1,8 @@
+---
+title: "Clojure Recipes"
+layout: default
+---
+
 # clj-time recipes
 
 ### Dependency
