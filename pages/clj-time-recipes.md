@@ -1,5 +1,5 @@
 ---
-title: "Clojure Recipes"
+title: "clj-time Recipes"
 layout: default
 ---
 
