@@ -1,0 +1,6 @@
+  <ul class='clients'>
+  {% for client in site.data.clients %}<li>
+      <a href='{{ client.link }}' title='{{ client.name }}'><img alt='{{ client.name }}' src='/assets/client_logos/{{ client.img }}' /></a>
+  </li>{% endfor %}
+  </ul>
+
