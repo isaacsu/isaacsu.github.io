@@ -14,8 +14,6 @@
 - name: Victoria State Government
   img: sgv.png
   link: http://redir.mm.st/sgvic
-- name: Committee for Melbourne
-  img: cfm.png
   link: http://redir.mm.st/cfm
 - name: University of Melbourne
   img: um.png
@@ -23,6 +21,8 @@
 - name: RMIT University
   img: rmit.png
   link: http://www.rmit.edu.au/
+- name: Committee for Melbourne
+  img: cfm.png
 
 - name: Carlisle Homes
   img: ch.png
@@ -37,10 +37,10 @@
   img: pt.png
   link: http://particular.ch/
 
-- name: dtdigital
+- name: DT Digital
   img: dt.png
   link: http://redir.mm.st/dt
-- name: ypdigital
+- name: YP Digital
   img: yp.png
   link: http://redir.mm.st/yp
 - name: Grant Day James
@@ -53,11 +53,11 @@
 #- name: moonlet.co
 #  img: moo.png
 
-- name: ozChild
-  img: ozc.png
-  link: http://redir.mm.st/ozc
-
 - name: Red Hong Yi
   img: rhy.png
   link: http://www.redhongyi.com/
+
+- name: ozChild
+  img: ozc.png
+  link: http://redir.mm.st/ozc
 

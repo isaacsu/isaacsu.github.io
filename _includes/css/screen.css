@@ -55,10 +55,12 @@ a {
 
 a:visited {
   color: {{ site.theme.highlight_color }};
+  text-decoration: none;
 }
 
 a:hover {
   color: {{ site.theme.active_color }};
+  text-decoration: none;
 }
 
 table {
