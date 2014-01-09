@@ -26,19 +26,24 @@ transfer:
 # Theme customization - please change from the defaults!
 theme:
   # Color for top bar, links, etc
-  highlight_color: '#3498db'
+  #highlight_color: '#3498db'
+  background_color: '#fafafa'
+  highlight_color: '#3F5765'
+  active_color: '#FF530D'
+  mute_color: '#BDD4DE'
+  dark_color: '2B3A42'
 
   # Profile links on the left sidebar, leave blank to ignore
   social:
     github: isaacsu
-    bitbucket: isaacsu
+    #bitbucket: isaacsu
     #hacker_news: swanson
     #stackexchange: 348619
     #stackoverflow: 348619
     twitter: isaacsu
     #facebook: zuck
     #tumblr: animalygifs
-    #linkedin: philipjagielski
+    linkedin: isaacsu
     #gplus: 110552447039675960964
 
   # "Hi, I'm _______"
@@ -50,4 +55,4 @@ theme:
   #google_analytics_key: UA-xxxx-x
 
   # Toggle "Postings are my own" disclaimer in footer
-  show_disclaimer: true
+  show_disclaimer: false

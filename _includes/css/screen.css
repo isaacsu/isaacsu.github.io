@@ -9,17 +9,18 @@ html, body {
 
 body {
   font-size: 16px;
-  background-color: white;
+  background-color: {{ site.theme.background_color }};
   color: #222222;
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid {{ site.theme.highlight_color }};
+  border-top: 7px solid {{ site.theme.mute_color }};
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
+  color: {{ site.theme.dark_color }};
   font-family: "open sans", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 h1.title {
@@ -52,13 +53,12 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: {{ site.theme.highlight_color }};
-  text-decoration: underline;
-}
-
 a:visited {
   color: {{ site.theme.highlight_color }};
+}
+
+a:hover {
+  color: {{ site.theme.active_color }};
 }
 
 table {
@@ -117,14 +117,14 @@ nav hr {
 #social {
   margin-bottom: 10px;
   font-size: 13px;
+  text-align:center;
 }
 
 pre {
   border: 1px solid #ddd;
   border-radius: 3px;
-  background-color: #eef;
-  background-color:#F8F8F8;
-  padding: 0 .4em;
+  background-color:#fff;
+  padding: .3em .6em;
   margin-bottom: 20px !important;
 }
 
@@ -136,8 +136,7 @@ pre {
 code {
   border: 1px solid #ddd;
   border-radius: 3px;
-  background-color: #eef;
-  background-color:#F8F8F8;
+  background-color:#fff;
   //font-size: 85%;
   font-size: 90%;
   padding: 0 .3em;
@@ -206,6 +205,7 @@ pre code {
   width: 29px;
   overflow: hidden;
   float: left;
+  color: {{ site.theme.mute_color }};
 }
 
 #stalker i {
