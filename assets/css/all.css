@@ -3,8 +3,23 @@
 
 {% include css/base.css %}
 {% include css/skeleton.css %}
+{% include css/merriweather.css %}
+/*
 {% include css/screen.css %}
+*/
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  color: {{ site.theme.dark_color }};
+  font-family: "merriweatherregular", sans-serif;
+}
 
+body {
+  font-family: "merriweather_lightregular", "open sans", sans-serif;
+  background: #fafafa;
+}
+
+/*
 {% include css/clients.css %}
 {% include css/layout.css %}
+*/
 {% include css/pygment/pyg0-perldoc.css %}
