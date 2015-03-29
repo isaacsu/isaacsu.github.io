@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/isaacsu
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://isaac.su
+  * I am isaacsu (https://keybase.io/isaacsu) on keybase.
+  * I have a public key with fingerprint 6A25 F38F 2BBF 1A98 98D5  D118 13E4 CCE5 4648 52C6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6a25f38f2bbf1a9898d5d11813e4cce5464852c6",
+            "host": "keybase.io",
+            "key_id": "13e4cce5464852c6",
+            "kid": "0101c98b5dd5fd5e6cb071aad2d3b071820daa2aecc5428dd454b03a8dc7cb1dbb250a",
+            "uid": "df087046dbf6cd363b0a49cc6cfbe200",
+            "username": "isaacsu"
+        },
+        "revoke": {
+            "sig_ids": [
+                "ad4bf7c13d13f09e467e805acdd72a20acebbaaf433d1694def829355164861d0f"
+            ]
+        },
+        "service": {
+            "hostname": "isaac.su",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427667491,
+    "expire_in": 157680000,
+    "prev": "4cd494aab6ff329c3351adc94ce73a5d4adc3cc63cacf8aae01eabc7959698f1",
+    "seqno": 15,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMJRAnicbZJZbE1BGMdv7UqRENsDydgiqZo5Z+YsFw8Sy1NF0AgqN7O2R7nnOufc
+VtVFLBWJ2CL2iEYiBAlF0zQRaqslHsSWkEbsEksqaD3Y5jQkHszLzPfN//t9y8zV
+gq6J/LypjbO2bjrYvynvdvO+bKJk6MpRNYD5ohoka0CF7NyUly6TQSbw0hFIAosa
+RJmOMhhTiLqO6wgiEHKQKTHnkmALO8TgFigE5X4YR2gMo6Es8nzt00bKE9r7H31F
+5wVEEHHXYUQIogSRFmfQRpQKQ5jxyTGgoNSgknOCDUcITDCDJnUEtzlDgjGDQKpx
+2U6cUNCxIbYEUxYXpqUZFLucW1wxaUAYC0MZpOkyqdVeSCkPsyBXCAJZ6VfIeACh
+V6ZrDkFyEaACM2VzZApkKuhKbNnSgYRyIWyDGpByyRilCptaYblYSOUYrkkI0m1a
+SEAFFmu2Tljp8U54PKR/kxfp7IUgE/iRz/2l2lseRZkwGVcUVWdiWZVkqT+AFPPS
+Qj+PjqiUQej5aZBEWskjLyYibNiWZWMXFQK5IuMFMuXFCmJbDtQrziMrNRJzgV1M
+KbOUMg2XmyZBVHAXc2mblAisDVPPzOSUK4dSCZGkjNsucS3XUQjELS1P+zFb10nL
+NFNPLU2jbCBB7vKl0m6JvPxEj+5d4h+WyO894O+/23it589xUdO5xtazb3PP6/ec
+qU0MmXChSfaceUK+OzKotuPx3KuHR77oN7zu24Pd85+uX3Gzpfvg6GFb+4U59odP
+xee31ZcvPF3Uu4S3ouJXt6d/3dL/xmRV9PL7FdR+Z8ycPjWjNzeMDNZ+LxlM1p2Z
+3ytXO/ZEyn745nnDmB0zPn5c49+9P+zms3mlLTTVPPrOuLaOkx8Gvfiyq3lHayT3
+h31gbuv4PDSiL7xWdWr/2Qe3hky8/up9Hfsy4pT3um3jj9VQle661Lx9b/v6bI97
+9d+eFR94/CT9aNVOt/Ti7Glblh86X1eVOzn188DaeTM7NhScnvSz+PiUhatrQHXX
+ow1LFtxtaXxdsOzX2GO/AVSbTgY=
+=Hncb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/isaacsu
+
+==================================================================
